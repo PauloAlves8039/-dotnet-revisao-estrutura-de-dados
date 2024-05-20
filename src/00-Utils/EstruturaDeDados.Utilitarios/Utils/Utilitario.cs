@@ -6,7 +6,7 @@
         {
             for (int i = 0; i < tamanhoDoVetor; i++)
             {
-                Console.WriteLine($"Elemento [{i}] = ");
+                Console.Write($"Elemento [{i}] = ");
                 vetor[i] = int.Parse(Console.ReadLine());
             }
         }
@@ -17,7 +17,7 @@
             {
                 if (vetor[i] != 0)
                 {
-                    Console.Write($"{vetor[i]}");
+                    Console.Write($"{vetor[i]} ");
                 }
             }
 
