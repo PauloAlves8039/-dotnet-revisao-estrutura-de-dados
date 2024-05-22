@@ -49,13 +49,29 @@
             return matriz;
         }
 
+        public static void ImprimirMatriz(int[,] matriz)
+        {
+            int linhas = matriz.GetLength(0);
+            int colunas = matriz.GetLength(1);
+
+            for (int i = 0; i < linhas; i++)
+            {
+                for (int j = 0; j < colunas; j++)
+                {
+                    Console.WriteLine($"{matriz[i, j]} \t");
+                }
+
+                Console.WriteLine();
+            }
+        }
+
         public static void ImprimirMatriz(int[,] matriz, int linhas, int colunas)
         {
             for (int i = 0; i < linhas; i++)
             {
                 for (int j = 0; j < colunas; j++)
                 {
-                    Console.WriteLine($"{matriz[i, j]} \t");
+                    Console.Write($"{matriz[i, j]} \t");
                 }
 
                 Console.WriteLine();
