@@ -26,7 +26,7 @@
 
         public static int[,] LerMatriz(int linhas, int colunas)
         {
-            var matriz = new int[linhas, colunas];
+            int[,] matriz = new int[linhas, colunas];
 
             for (int i = 0; i < linhas; i++)
             {
@@ -58,7 +58,7 @@
             {
                 for (int j = 0; j < colunas; j++)
                 {
-                    Console.WriteLine($"{matriz[i, j]} \t");
+                    Console.Write($"{matriz[i, j]} \t");
                 }
 
                 Console.WriteLine();
