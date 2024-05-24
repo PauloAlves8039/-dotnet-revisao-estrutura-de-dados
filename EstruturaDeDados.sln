@@ -13,7 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Array01", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Array02", "src\01-Arrays\EstruturaDeDados.Array02\EstruturaDeDados.Array02.csproj", "{A000F75A-C5B1-450F-B126-F58924605A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Array03", "src\01-Arrays\EstruturaDeDados.Array03\EstruturaDeDados.Array03.csproj", "{BF0D123B-650C-4059-8E5B-EDE8BF2F8EEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Array03", "src\01-Arrays\EstruturaDeDados.Array03\EstruturaDeDados.Array03.csproj", "{BF0D123B-650C-4059-8E5B-EDE8BF2F8EEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Matriz", "02-Matriz", "{ACD76C64-82B3-4DC5-AD50-2EEDFC56F704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Matriz01", "src\02-Matriz\EstruturaDeDados.Matriz01\EstruturaDeDados.Matriz01.csproj", "{768CAD50-A083-403B-BC0A-945BFFFEFB83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Matriz02", "src\02-Matriz\EstruturaDeDados.Matriz02\EstruturaDeDados.Matriz02.csproj", "{056A3F06-74A6-4A74-85D8-2FED67929913}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Matriz03", "src\02-Matriz\EstruturaDeDados.Matriz03\EstruturaDeDados.Matriz03.csproj", "{F0EE2D3D-79F6-4CF2-BDCB-DB22693D99E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +45,18 @@ Global
 		{BF0D123B-650C-4059-8E5B-EDE8BF2F8EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF0D123B-650C-4059-8E5B-EDE8BF2F8EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF0D123B-650C-4059-8E5B-EDE8BF2F8EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768CAD50-A083-403B-BC0A-945BFFFEFB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768CAD50-A083-403B-BC0A-945BFFFEFB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768CAD50-A083-403B-BC0A-945BFFFEFB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768CAD50-A083-403B-BC0A-945BFFFEFB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056A3F06-74A6-4A74-85D8-2FED67929913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056A3F06-74A6-4A74-85D8-2FED67929913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056A3F06-74A6-4A74-85D8-2FED67929913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056A3F06-74A6-4A74-85D8-2FED67929913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EE2D3D-79F6-4CF2-BDCB-DB22693D99E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EE2D3D-79F6-4CF2-BDCB-DB22693D99E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EE2D3D-79F6-4CF2-BDCB-DB22693D99E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EE2D3D-79F6-4CF2-BDCB-DB22693D99E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +66,9 @@ Global
 		{44D2C7B5-B1B5-4BFD-801E-DAE2E0BE5D4D} = {EA99788A-2D62-48E7-8B24-82186EA5FDC1}
 		{A000F75A-C5B1-450F-B126-F58924605A82} = {EA99788A-2D62-48E7-8B24-82186EA5FDC1}
 		{BF0D123B-650C-4059-8E5B-EDE8BF2F8EEE} = {EA99788A-2D62-48E7-8B24-82186EA5FDC1}
+		{768CAD50-A083-403B-BC0A-945BFFFEFB83} = {ACD76C64-82B3-4DC5-AD50-2EEDFC56F704}
+		{056A3F06-74A6-4A74-85D8-2FED67929913} = {ACD76C64-82B3-4DC5-AD50-2EEDFC56F704}
+		{F0EE2D3D-79F6-4CF2-BDCB-DB22693D99E0} = {ACD76C64-82B3-4DC5-AD50-2EEDFC56F704}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44EB905E-3A9C-40A2-9583-F585F2A914F2}
