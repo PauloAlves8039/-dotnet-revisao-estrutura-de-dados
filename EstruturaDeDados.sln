@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Busca-Linear-Binaria", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaBinaria01", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaBinaria01\EstruturaDeDados.BuscaBinaria01.csproj", "{0A942CE2-3F11-44AC-B0CC-E2B54D430C4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaBinaria02", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaBinaria02\EstruturaDeDados.BuscaBinaria02.csproj", "{82FCA886-2843-4362-8D49-C0D3AA59E9FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{0A942CE2-3F11-44AC-B0CC-E2B54D430C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A942CE2-3F11-44AC-B0CC-E2B54D430C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A942CE2-3F11-44AC-B0CC-E2B54D430C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FCA886-2843-4362-8D49-C0D3AA59E9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FCA886-2843-4362-8D49-C0D3AA59E9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FCA886-2843-4362-8D49-C0D3AA59E9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FCA886-2843-4362-8D49-C0D3AA59E9FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{056A3F06-74A6-4A74-85D8-2FED67929913} = {ACD76C64-82B3-4DC5-AD50-2EEDFC56F704}
 		{F0EE2D3D-79F6-4CF2-BDCB-DB22693D99E0} = {ACD76C64-82B3-4DC5-AD50-2EEDFC56F704}
 		{0A942CE2-3F11-44AC-B0CC-E2B54D430C4D} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
+		{82FCA886-2843-4362-8D49-C0D3AA59E9FC} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44EB905E-3A9C-40A2-9583-F585F2A914F2}
