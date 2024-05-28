@@ -2,22 +2,22 @@
 {
     public static class Utilitario
     {
-        public static void LerArray(int[] vetor, int tamanhoDoVetor)
+        public static void LerArray(int[] array, int tamanhoDoArray)
         {
-            for (int i = 0; i < tamanhoDoVetor; i++)
+            for (int i = 0; i < tamanhoDoArray; i++)
             {
                 Console.Write($"Elemento [{i}] = ");
-                vetor[i] = int.Parse(Console.ReadLine());
+                array[i] = int.Parse(Console.ReadLine());
             }
         }
 
-        public static void ImprimirArray(int[] vetor)
+        public static void ImprimirArray(int[] array)
         {
-            for (int i = 0; i < vetor.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                if (vetor[i] != 0)
+                if (array[i] != 0)
                 {
-                    Console.Write($"{vetor[i]} ");
+                    Console.Write($"{array[i]} ");
                 }
             }
 
