@@ -27,9 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Busca-Linear-Binaria", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaBinaria01", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaBinaria01\EstruturaDeDados.BuscaBinaria01.csproj", "{0A942CE2-3F11-44AC-B0CC-E2B54D430C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaBinaria02", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaBinaria02\EstruturaDeDados.BuscaBinaria02.csproj", "{82FCA886-2843-4362-8D49-C0D3AA59E9FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaBinaria02", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaBinaria02\EstruturaDeDados.BuscaBinaria02.csproj", "{82FCA886-2843-4362-8D49-C0D3AA59E9FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaLinear01", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaLinear01\EstruturaDeDados.BuscaLinear01.csproj", "{4B4E019B-5238-48DC-AF4F-0E793DD496D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaLinear01", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaLinear01\EstruturaDeDados.BuscaLinear01.csproj", "{4B4E019B-5238-48DC-AF4F-0E793DD496D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaLinear02", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaLinear02\EstruturaDeDados.BuscaLinear02.csproj", "{FE7D351B-8196-4B03-A57D-BDDC9980800F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{4B4E019B-5238-48DC-AF4F-0E793DD496D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B4E019B-5238-48DC-AF4F-0E793DD496D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B4E019B-5238-48DC-AF4F-0E793DD496D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7D351B-8196-4B03-A57D-BDDC9980800F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7D351B-8196-4B03-A57D-BDDC9980800F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7D351B-8196-4B03-A57D-BDDC9980800F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7D351B-8196-4B03-A57D-BDDC9980800F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{0A942CE2-3F11-44AC-B0CC-E2B54D430C4D} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
 		{82FCA886-2843-4362-8D49-C0D3AA59E9FC} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
 		{4B4E019B-5238-48DC-AF4F-0E793DD496D5} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
+		{FE7D351B-8196-4B03-A57D-BDDC9980800F} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44EB905E-3A9C-40A2-9583-F585F2A914F2}
