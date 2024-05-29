@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaBinar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaLinear01", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaLinear01\EstruturaDeDados.BuscaLinear01.csproj", "{4B4E019B-5238-48DC-AF4F-0E793DD496D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaLinear02", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaLinear02\EstruturaDeDados.BuscaLinear02.csproj", "{FE7D351B-8196-4B03-A57D-BDDC9980800F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaLinear02", "src\03-Busca-Linear-Binaria\EstruturaDeDados.BuscaLinear02\EstruturaDeDados.BuscaLinear02.csproj", "{FE7D351B-8196-4B03-A57D-BDDC9980800F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Algoritmos-de-Ordenacao", "04-Algoritmos-de-Ordenacao", "{E85AA7AD-F6CC-4F92-B8C7-6EF1DA958C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BubbleSort01", "src\04-Algoritmos-de-Ordenacao\EstruturaDeDados.BubbleSort01\EstruturaDeDados.BubbleSort01.csproj", "{BAFBB1BB-3D51-4530-B126-39B81BE205FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +87,10 @@ Global
 		{FE7D351B-8196-4B03-A57D-BDDC9980800F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE7D351B-8196-4B03-A57D-BDDC9980800F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE7D351B-8196-4B03-A57D-BDDC9980800F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFBB1BB-3D51-4530-B126-39B81BE205FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFBB1BB-3D51-4530-B126-39B81BE205FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFBB1BB-3D51-4530-B126-39B81BE205FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFBB1BB-3D51-4530-B126-39B81BE205FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +107,7 @@ Global
 		{82FCA886-2843-4362-8D49-C0D3AA59E9FC} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
 		{4B4E019B-5238-48DC-AF4F-0E793DD496D5} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
 		{FE7D351B-8196-4B03-A57D-BDDC9980800F} = {5D2D141F-AF61-46B2-AA64-91000859E80A}
+		{BAFBB1BB-3D51-4530-B126-39B81BE205FA} = {E85AA7AD-F6CC-4F92-B8C7-6EF1DA958C04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44EB905E-3A9C-40A2-9583-F585F2A914F2}
