@@ -24,6 +24,16 @@
             Console.WriteLine();
         }
 
+        public static void ImprimirArrayCompleto(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write($"{array[i]} ");
+            }
+
+            Console.WriteLine();
+        }
+
         public static int[,] LerMatriz(int linhas, int colunas)
         {
             int[,] matriz = new int[linhas, colunas];
