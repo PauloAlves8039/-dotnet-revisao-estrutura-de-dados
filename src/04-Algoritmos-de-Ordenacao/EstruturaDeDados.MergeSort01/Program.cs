@@ -23,16 +23,16 @@ internal class Program
         Console.ReadKey();
     }
 
-    private static void ExecutarMergeSort(int[] array) 
+    private static void ExecutarMergeSort(int[] array)
     {
         int esquerda = 0;
         int direita = array.Length - 1;
         OrdenarArray(array, esquerda, direita);
     }
 
-    private static void OrdenarArray(int[] array, int esquerda, int direita) 
+    private static void OrdenarArray(int[] array, int esquerda, int direita)
     {
-        if (esquerda < direita) 
+        if (esquerda < direita)
         {
             int meio = (esquerda + direita) / 2;
             OrdenarArray(array, esquerda, meio);
@@ -41,7 +41,7 @@ internal class Program
         }
     }
 
-    private static void MesclarArrays(int[] array, int esquerda, int meio, int direita) 
+    private static void MesclarArrays(int[] array, int esquerda, int meio, int direita)
     {
         int numero1 = meio - esquerda + 1;
         int numero2 = direita - meio;
@@ -49,7 +49,7 @@ internal class Program
         int[] arrayEsquerdo = new int[numero1];
         int[] arrayDireito = new int[numero2];
 
-        for (int i = 0; i < numero1; i++) 
+        for (int i = 0; i < numero1; i++)
         {
             arrayEsquerdo[i] = array[esquerda + i];
         }
@@ -62,14 +62,14 @@ internal class Program
         int x = 0, y = 0;
         int k = esquerda;
 
-        while (x < numero1 && y < numero2) 
+        while (x < numero1 && y < numero2)
         {
             if (arrayEsquerdo[x] <= arrayDireito[y])
             {
                 array[k] = arrayEsquerdo[x];
                 x++;
             }
-            else 
+            else
             {
                 array[k] = arrayDireito[y];
                 y++;
@@ -78,14 +78,14 @@ internal class Program
             k++;
         }
 
-        while (x < numero1) 
+        while (x < numero1)
         {
             array[k] = arrayEsquerdo[x];
             x++;
             k++;
         }
 
-        while (y < numero2) 
+        while (y < numero2)
         {
             array[k] = arrayDireito[y];
             y++;

@@ -23,16 +23,16 @@ internal class Program
         Console.ReadKey();
     }
 
-    private static void ExecutarInsertionSort(int[] array) 
+    private static void ExecutarInsertionSort(int[] array)
     {
         int numero = array.Length;
 
-        for (int i = 1; i < numero; i++) 
+        for (int i = 1; i < numero; i++)
         {
             int chave = array[i];
             int j;
 
-            for (j = i - 1; j >= 0 && array[j] > chave; j--) 
+            for (j = i - 1; j >= 0 && array[j] > chave; j--)
             {
                 array[j + 1] = array[j];
             }

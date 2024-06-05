@@ -20,18 +20,18 @@ internal class Program
         Console.ReadKey();
     }
 
-    private static void ExecutarBubbleSort(int[] array) 
+    private static void ExecutarBubbleSort(int[] array)
     {
         int numero = array.Length;
         bool trocado;
 
-        for (int i = 0; i < numero -1; i++) 
+        for (int i = 0; i < numero - 1; i++)
         {
             trocado = false;
 
-            for (int j = 0; j < numero - i - 1; j++) 
+            for (int j = 0; j < numero - i - 1; j++)
             {
-                if (array[j] > array[j + 1]) 
+                if (array[j] > array[j + 1])
                 {
                     int temp = array[j];
                     array[j] = array[j + 1];
@@ -40,7 +40,7 @@ internal class Program
                 }
             }
 
-            if (!trocado) 
+            if (!trocado)
             {
                 break;
             }

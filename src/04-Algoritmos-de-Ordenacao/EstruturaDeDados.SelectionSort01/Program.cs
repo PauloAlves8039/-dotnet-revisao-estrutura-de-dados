@@ -19,17 +19,17 @@ internal class Program
 
         Console.ReadKey();
     }
-    private static void ExecutarSelectionSort(int[] array) 
+    private static void ExecutarSelectionSort(int[] array)
     {
         int numero = array.Length;
 
-        for (int i = 0; i < numero - 1; i++) 
+        for (int i = 0; i < numero - 1; i++)
         {
             int minIndex = i;
 
-            for (int j = i + 1; j < numero; j++) 
+            for (int j = i + 1; j < numero; j++)
             {
-                if (array[j] < array[minIndex]) 
+                if (array[j] < array[minIndex])
                 {
                     minIndex = j;
                 }

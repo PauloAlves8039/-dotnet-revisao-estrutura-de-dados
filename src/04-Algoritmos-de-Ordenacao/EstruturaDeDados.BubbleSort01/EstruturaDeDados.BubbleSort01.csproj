@@ -7,8 +7,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
- <ItemGroup>
-	 <ProjectReference Include="..\..\00-Utils\EstruturaDeDados.Utilitarios\EstruturaDeDados.Utilitarios.csproj" />
- </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\00-Utils\EstruturaDeDados.Utilitarios\EstruturaDeDados.Utilitarios.csproj" />
+  </ItemGroup>
 
 </Project>

@@ -23,9 +23,9 @@ internal class Program
         Console.ReadKey();
     }
 
-    private static void OrdenarArray(int[] array, int baixo, int alto) 
+    private static void OrdenarArray(int[] array, int baixo, int alto)
     {
-        if (baixo < alto) 
+        if (baixo < alto)
         {
             int indice = ParticionarUltimoElemento(array, baixo, alto);
             OrdenarArray(array, baixo, indice - 1);
@@ -33,14 +33,14 @@ internal class Program
         }
     }
 
-    private static int ParticionarUltimoElemento(int[] array, int baixo, int alto) 
+    private static int ParticionarUltimoElemento(int[] array, int baixo, int alto)
     {
         int pivo = array[alto];
         int i = baixo - 1;
 
-        for (int j = baixo; j < alto; j++) 
+        for (int j = baixo; j < alto; j++)
         {
-            if (array[j] <= pivo) 
+            if (array[j] <= pivo)
             {
                 i++;
                 SubstituirElemento(array, i, j);
@@ -52,7 +52,7 @@ internal class Program
         return i + 1;
     }
 
-    private static void SubstituirElemento(int[] array, int i, int j) 
+    private static void SubstituirElemento(int[] array, int i, int j)
     {
         int temp = array[i];
         array[i] = array[j];
