@@ -5,49 +5,53 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Utilities", "00-Utilities", "{D1720ABF-A131-4E76-9C3A-0D9E54682C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Utilitarios", "src\00-Utilities\EstruturaDeDados.Utilitarios\EstruturaDeDados.Utilitarios.csproj", "{EE370BA7-60A4-4224-B2E6-9D1E51587D05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Utilitarios", "src\00-Utilities\EstruturaDeDados.Utilitarios\EstruturaDeDados.Utilitarios.csproj", "{EE370BA7-60A4-4224-B2E6-9D1E51587D05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Array", "01-Array", "{74B10809-F5EE-483F-A418-2808B6B54FF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Array01", "src\01-Array\EstruturaDeDados.Array01\EstruturaDeDados.Array01.csproj", "{E6D135CE-3F57-43A8-A7E5-293CCA493D40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Array01", "src\01-Array\EstruturaDeDados.Array01\EstruturaDeDados.Array01.csproj", "{E6D135CE-3F57-43A8-A7E5-293CCA493D40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Array02", "src\01-Array\EstruturaDeDados.Array02\EstruturaDeDados.Array02.csproj", "{44F87F40-C938-4BC8-B5E1-6554796148A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Array02", "src\01-Array\EstruturaDeDados.Array02\EstruturaDeDados.Array02.csproj", "{44F87F40-C938-4BC8-B5E1-6554796148A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Array03", "src\01-Array\EstruturaDeDados.Array03\EstruturaDeDados.Array03.csproj", "{7C85B91A-F5B3-4BFA-B567-1D7B73F68994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Array03", "src\01-Array\EstruturaDeDados.Array03\EstruturaDeDados.Array03.csproj", "{7C85B91A-F5B3-4BFA-B567-1D7B73F68994}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Matrizes", "02-Matrizes", "{EFE7BD31-A732-4FB5-957F-45EB904A1CAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Matriz01", "src\02-Matrizes\EstruturaDeDados.Matriz01\EstruturaDeDados.Matriz01.csproj", "{2F435664-8EAD-45B5-AE44-0E083E666431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Matriz01", "src\02-Matrizes\EstruturaDeDados.Matriz01\EstruturaDeDados.Matriz01.csproj", "{2F435664-8EAD-45B5-AE44-0E083E666431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Matriz02", "src\02-Matrizes\EstruturaDeDados.Matriz02\EstruturaDeDados.Matriz02.csproj", "{B780048A-1994-4842-98B1-6BC2381EA335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Matriz02", "src\02-Matrizes\EstruturaDeDados.Matriz02\EstruturaDeDados.Matriz02.csproj", "{B780048A-1994-4842-98B1-6BC2381EA335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Matriz03", "src\02-Matrizes\EstruturaDeDados.Matriz03\EstruturaDeDados.Matriz03.csproj", "{F204D7F7-8D60-4BE1-91C6-380AFB11050D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.Matriz03", "src\02-Matrizes\EstruturaDeDados.Matriz03\EstruturaDeDados.Matriz03.csproj", "{F204D7F7-8D60-4BE1-91C6-380AFB11050D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Buscas-Linear-Binaria", "03-Buscas-Linear-Binaria", "{7443AE15-ABE2-448A-B8ED-938B57D27303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaBinaria01", "src\03-Buscas-Linear-Binaria\EstruturaDeDados.BuscaBinaria01\EstruturaDeDados.BuscaBinaria01.csproj", "{5FB9E5A6-3D94-4DEF-B111-A947F736D6CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaBinaria01", "src\03-Buscas-Linear-Binaria\EstruturaDeDados.BuscaBinaria01\EstruturaDeDados.BuscaBinaria01.csproj", "{5FB9E5A6-3D94-4DEF-B111-A947F736D6CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaBinaria02", "src\03-Buscas-Linear-Binaria\EstruturaDeDados.BuscaBinaria02\EstruturaDeDados.BuscaBinaria02.csproj", "{3D35376D-6790-4A26-9BF5-D1B2CE7F8200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaBinaria02", "src\03-Buscas-Linear-Binaria\EstruturaDeDados.BuscaBinaria02\EstruturaDeDados.BuscaBinaria02.csproj", "{3D35376D-6790-4A26-9BF5-D1B2CE7F8200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaLinear01", "src\03-Buscas-Linear-Binaria\EstruturaDeDados.BuscaLinear01\EstruturaDeDados.BuscaLinear01.csproj", "{A4640DDD-F114-460A-A7E0-191B651E8013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaLinear01", "src\03-Buscas-Linear-Binaria\EstruturaDeDados.BuscaLinear01\EstruturaDeDados.BuscaLinear01.csproj", "{A4640DDD-F114-460A-A7E0-191B651E8013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BuscaLinear02", "src\03-Buscas-Linear-Binaria\EstruturaDeDados.BuscaLinear02\EstruturaDeDados.BuscaLinear02.csproj", "{53011B2A-27D2-4ADD-8DBF-28AE57674933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BuscaLinear02", "src\03-Buscas-Linear-Binaria\EstruturaDeDados.BuscaLinear02\EstruturaDeDados.BuscaLinear02.csproj", "{53011B2A-27D2-4ADD-8DBF-28AE57674933}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Algoritmos-Ordenacao", "04-Algoritmos-Ordenacao", "{287B3AE3-2210-44E0-84AA-0D8DE3D4D79C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.BubbleSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.BubbleSort01\EstruturaDeDados.BubbleSort01.csproj", "{CB573071-7008-41EC-8EA9-C2B9A3B7F702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.BubbleSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.BubbleSort01\EstruturaDeDados.BubbleSort01.csproj", "{CB573071-7008-41EC-8EA9-C2B9A3B7F702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.HeapSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.HeapSort01\EstruturaDeDados.HeapSort01.csproj", "{A35E4DF5-7456-451E-AB6F-A0130917F7AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.HeapSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.HeapSort01\EstruturaDeDados.HeapSort01.csproj", "{A35E4DF5-7456-451E-AB6F-A0130917F7AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.InsertionSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.InsertionSort01\EstruturaDeDados.InsertionSort01.csproj", "{7D380DD4-452D-44CA-A433-63381457066C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.InsertionSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.InsertionSort01\EstruturaDeDados.InsertionSort01.csproj", "{7D380DD4-452D-44CA-A433-63381457066C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.MergeSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.MergeSort01\EstruturaDeDados.MergeSort01.csproj", "{29FCD4F4-E5D5-414A-BDD7-A1D3CDC417C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.MergeSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.MergeSort01\EstruturaDeDados.MergeSort01.csproj", "{29FCD4F4-E5D5-414A-BDD7-A1D3CDC417C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.QuickSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.QuickSort01\EstruturaDeDados.QuickSort01.csproj", "{A15221D8-D360-4C99-8C2F-F1DB5E15CC48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.QuickSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.QuickSort01\EstruturaDeDados.QuickSort01.csproj", "{A15221D8-D360-4C99-8C2F-F1DB5E15CC48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.SelectionSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.SelectionSort01\EstruturaDeDados.SelectionSort01.csproj", "{69815AA9-7AB4-4B51-AA11-F6ED9A1F7DAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.SelectionSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.SelectionSort01\EstruturaDeDados.SelectionSort01.csproj", "{69815AA9-7AB4-4B51-AA11-F6ED9A1F7DAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.ShellSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.ShellSort01\EstruturaDeDados.ShellSort01.csproj", "{079AD93A-6574-47D0-B54D-340CD0A895DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaDeDados.ShellSort01", "src\04-Algoritmos-Ordenacao\EstruturaDeDados.ShellSort01\EstruturaDeDados.ShellSort01.csproj", "{079AD93A-6574-47D0-B54D-340CD0A895DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Pilhas-Filas", "05-Pilhas-Filas", "{92A67801-E662-4BB9-BC3E-75C2F05EA2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados.Pilha01", "src\05-Pilhas-Filas\EstruturaDeDados.Pilha01\EstruturaDeDados.Pilha01.csproj", "{8BA8469C-0D7D-427F-9C63-F8248C6022F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +131,10 @@ Global
 		{079AD93A-6574-47D0-B54D-340CD0A895DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{079AD93A-6574-47D0-B54D-340CD0A895DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{079AD93A-6574-47D0-B54D-340CD0A895DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA8469C-0D7D-427F-9C63-F8248C6022F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA8469C-0D7D-427F-9C63-F8248C6022F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA8469C-0D7D-427F-9C63-F8248C6022F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA8469C-0D7D-427F-9C63-F8248C6022F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +158,7 @@ Global
 		{A15221D8-D360-4C99-8C2F-F1DB5E15CC48} = {287B3AE3-2210-44E0-84AA-0D8DE3D4D79C}
 		{69815AA9-7AB4-4B51-AA11-F6ED9A1F7DAC} = {287B3AE3-2210-44E0-84AA-0D8DE3D4D79C}
 		{079AD93A-6574-47D0-B54D-340CD0A895DB} = {287B3AE3-2210-44E0-84AA-0D8DE3D4D79C}
+		{8BA8469C-0D7D-427F-9C63-F8248C6022F7} = {92A67801-E662-4BB9-BC3E-75C2F05EA2A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44EB905E-3A9C-40A2-9583-F585F2A914F2}
