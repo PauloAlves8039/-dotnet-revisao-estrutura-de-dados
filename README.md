@@ -9,6 +9,8 @@
 
 Repositório com aplicações para fins acadêmicos sobre revisão de `Estrutura de Dados`, o objetivo é se manter alinhado com o uso desses conceitos.
 
+**Observação**: esse projeto pode sofrer mudanças diversas com o decorrer do tempo.
+
 ## :page_facing_up: Links dos Exercícios
 
 - [Arrays](https://github.com/PauloAlves8039/dotnet-revisao-estrutura-de-dados/tree/master/src/01-Array)
@@ -16,6 +18,7 @@ Repositório com aplicações para fins acadêmicos sobre revisão de `Estrutura
 - [Buscas Linear e Binária](https://github.com/PauloAlves8039/dotnet-revisao-estrutura-de-dados/tree/master/src/03-Buscas-Linear-Binaria)
 - [Algoritmos de Ordenação](https://github.com/PauloAlves8039/dotnet-revisao-estrutura-de-dados/tree/master/src/04-Algoritmos-Ordenacao)
 - [Pilha e Filas](https://github.com/PauloAlves8039/dotnet-revisao-estrutura-de-dados/tree/master/src/05-Pilhas-Filas)
+- [Árvore](https://github.com/PauloAlves8039/dotnet-revisao-estrutura-de-dados/tree/master/src/06-Arvores/EstruturaDeDados.BinaryTree01)
 
 ## :heavy_check_mark: Recursos Utilizados
 
